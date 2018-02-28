@@ -35,9 +35,11 @@ CONFIG_FILE = '{}/config.ini'.format(os.path.dirname(os.path.abspath(__file__)))
 config = ConfigParser()
 config.read(CONFIG_FILE)
 session = FuturesSession()
-rd = redis.StrictRedis(host='trade.noapp.info', port=6379, password='4a52daf4474229f13db2bdc25944cac4de38fadb', db=0)
-exchange = ccxt.binance({'apiKey': 'tHMhKwLXHMT3BcE6PSM3CflAlIFMwZQyAsGyXupvPTxOIW6EQUFM2w2iE4VDI2ZT',
-                         'secret': 'cEzV6mcblQe4GjhNRbmzciv9B3cecx1RIa4ahaBerMhL9nIgOTqDbQne0hkQ97T4'})
+rd = redis.StrictRedis(host=config['REDIS']['HOST'],
+                       port=config['REDIS']['PORT'],
+                       password=config['REDIS']['PASS'], db=0)
+exchange = ccxt.binance({'apiKey': config['BINANCE']['KEY'],
+                         'secret': config['BINANCE']['SECRET']})
 
 
 def make_keras_picklable():
