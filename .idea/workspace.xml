@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="288ee349-3181-4dcd-b4bd-a8f804181cd5" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="trainer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trainer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-982">
+              <caret line="72" column="10" lean-forward="false" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+              <folding>
+                <element signature="e#24#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reporter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reporter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" column="10" lean-forward="false" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+              <folding>
+                <element signature="e#24#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bittrex.py" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/python3/3.6.4_2/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/ccxt/bittrex.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5775">
+              <caret line="385" column="0" lean-forward="false" selection-start-line="385" selection-start-column="0" selection-end-line="385" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trader.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+              <folding>
+                <element signature="e#24#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detector.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/detector.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="593">
+              <caret line="70" column="10" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="70" selection-end-column="10" />
+              <folding>
+                <element signature="e#24#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ARK</find>
+      <find>BUDGET_RATIO</find>
+      <find>MIN_PROFIT</find>
+      <find>sell_price</find>
+      <find>data</find>
+      <find>client</find>
+      <find>HOT_RATE</find>
+      <find>datetime</find>
+      <find>eth</find>
+      <find>lastP</find>
+      <find>last</find>
+      <find>las</find>
+      <find>last_buy_time</find>
+      <find>last_predict_price</find>
+      <find>last_buy_price</find>
+      <find>MIN_VALUE</find>
+      <find>RCN</find>
+      <find>reach_profit</find>
+      <find>ticker</find>
+      <find>sell</find>
+      <find>sell(</find>
+      <find>buy_price</find>
+      <find>profit</find>
+      <find>buy(symbol</find>
+      <find>print</find>
+      <find>save_buy_total</find>
+      <find>to_quote</find>
+      <find>zlib</find>
+      <find>RandomForestRegressor</find>
+      <find>get_buy_price</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/run.sh" />
+        <option value="$PROJECT_DIR$/strategy.txt" />
+        <option value="$PROJECT_DIR$/bot.py" />
+        <option value="$PROJECT_DIR$/screen1.sh" />
+        <option value="$PROJECT_DIR$/analytic.py" />
+        <option value="$PROJECT_DIR$/screen2.sh" />
+        <option value="$PROJECT_DIR$/temp" />
+        <option value="$PROJECT_DIR$/strategy.py" />
+        <option value="$PROJECT_DIR$/screen3.sh" />
+        <option value="$PROJECT_DIR$/old.py" />
+        <option value="$PROJECT_DIR$/screen4.sh" />
+        <option value="$PROJECT_DIR$/bot4.py" />
+        <option value="$PROJECT_DIR$/bot1.py" />
+        <option value="$PROJECT_DIR$/bot3.py" />
+        <option value="$PROJECT_DIR$/bot2.py" />
+        <option value="$PROJECT_DIR$/hfbot.sh" />
+        <option value="$PROJECT_DIR$/mlbot.sh" />
+        <option value="$PROJECT_DIR$/rpbot.sh" />
+        <option value="$PROJECT_DIR$/tabot.sh" />
+        <option value="$PROJECT_DIR$/history.csv" />
+        <option value="$PROJECT_DIR$/hfbot.py" />
+        <option value="$PROJECT_DIR$/mlbot.py" />
+        <option value="$PROJECT_DIR$/tabot.py" />
+        <option value="$PROJECT_DIR$/rpbot.py" />
+        <option value="$PROJECT_DIR$/ml_detector.py" />
+        <option value="$PROJECT_DIR$/hf_detector.py" />
+        <option value="$PROJECT_DIR$/ta_detector.py" />
+        <option value="$PROJECT_DIR$/trader.sh" />
+        <option value="$PROJECT_DIR$/budget.txt" />
+        <option value="$PROJECT_DIR$/predictor.py" />
+        <option value="$PROJECT_DIR$/trainer2.py" />
+        <option value="$PROJECT_DIR$/trainer_bak.py" />
+        <option value="$PROJECT_DIR$/loader.py" />
+        <option value="$PROJECT_DIR$/detector2.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/buy.py" />
+        <option value="$PROJECT_DIR$/sell.py" />
+        <option value="$PROJECT_DIR$/reset.py" />
+        <option value="$PROJECT_DIR$/config.ini" />
+        <option value="$PROJECT_DIR$/detector.py" />
+        <option value="$PROJECT_DIR$/reporter.py" />
+        <option value="$PROJECT_DIR$/trader.py" />
+        <option value="$PROJECT_DIR$/trainer.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="119" />
+    <option name="y" value="83" />
+    <option name="width" value="1709" />
+    <option name="height" value="941" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mimibot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mimibot" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="binance-bot" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="binance-bot" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/backup" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.trainer2">
+    <configuration name="detector" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="binance-bot" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detector.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="reset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="binance-bot" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="binance-bot" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="trader" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="binance-bot" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="trainer2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="binance-bot" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trainer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.reset" />
+      <item index="2" class="java.lang.String" itemvalue="Python.trainer2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.detector" />
+      <item index="4" class="java.lang.String" itemvalue="Python.trader" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.trainer2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.detector" />
+        <item index="3" class="java.lang.String" itemvalue="Python.reset" />
+        <item index="4" class="java.lang.String" itemvalue="Python.trader" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="288ee349-3181-4dcd-b4bd-a8f804181cd5" name="Default" comment="" />
+      <created>1515132891880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1515132891880</updated>
+    </task>
+    <task id="LOCAL-00619" summary="1">
+      <created>1519309621394</created>
+      <option name="number" value="00619" />
+      <option name="presentableId" value="LOCAL-00619" />
+      <option name="project" value="LOCAL" />
+      <updated>1519309621394</updated>
+    </task>
+    <task id="LOCAL-00620" summary="1">
+      <created>1519311770985</created>
+      <option name="number" value="00620" />
+      <option name="presentableId" value="LOCAL-00620" />
+      <option name="project" value="LOCAL" />
+      <updated>1519311770985</updated>
+    </task>
+    <task id="LOCAL-00621" summary="1">
+      <created>1519312642050</created>
+      <option name="number" value="00621" />
+      <option name="presentableId" value="LOCAL-00621" />
+      <option name="project" value="LOCAL" />
+      <updated>1519312642050</updated>
+    </task>
+    <task id="LOCAL-00622" summary="1">
+      <created>1519312965951</created>
+      <option name="number" value="00622" />
+      <option name="presentableId" value="LOCAL-00622" />
+      <option name="project" value="LOCAL" />
+      <updated>1519312965952</updated>
+    </task>
+    <task id="LOCAL-00623" summary="1">
+      <created>1519313320019</created>
+      <option name="number" value="00623" />
+      <option name="presentableId" value="LOCAL-00623" />
+      <option name="project" value="LOCAL" />
+      <updated>1519313320019</updated>
+    </task>
+    <task id="LOCAL-00624" summary="1">
+      <created>1519357389148</created>
+      <option name="number" value="00624" />
+      <option name="presentableId" value="LOCAL-00624" />
+      <option name="project" value="LOCAL" />
+      <updated>1519357389149</updated>
+    </task>
+    <task id="LOCAL-00625" summary="1">
+      <created>1519389223693</created>
+      <option name="number" value="00625" />
+      <option name="presentableId" value="LOCAL-00625" />
+      <option name="project" value="LOCAL" />
+      <updated>1519389223694</updated>
+    </task>
+    <task id="LOCAL-00626" summary="1">
+      <created>1519402018838</created>
+      <option name="number" value="00626" />
+      <option name="presentableId" value="LOCAL-00626" />
+      <option name="project" value="LOCAL" />
+      <updated>1519402018838</updated>
+    </task>
+    <task id="LOCAL-00627" summary="1">
+      <created>1519404261089</created>
+      <option name="number" value="00627" />
+      <option name="presentableId" value="LOCAL-00627" />
+      <option name="project" value="LOCAL" />
+      <updated>1519404261089</updated>
+    </task>
+    <task id="LOCAL-00628" summary="1">
+      <created>1519404562498</created>
+      <option name="number" value="00628" />
+      <option name="presentableId" value="LOCAL-00628" />
+      <option name="project" value="LOCAL" />
+      <updated>1519404562498</updated>
+    </task>
+    <task id="LOCAL-00629" summary="1">
+      <created>1519406483325</created>
+      <option name="number" value="00629" />
+      <option name="presentableId" value="LOCAL-00629" />
+      <option name="project" value="LOCAL" />
+      <updated>1519406483325</updated>
+    </task>
+    <task id="LOCAL-00630" summary="1">
+      <created>1519408957274</created>
+      <option name="number" value="00630" />
+      <option name="presentableId" value="LOCAL-00630" />
+      <option name="project" value="LOCAL" />
+      <updated>1519408957274</updated>
+    </task>
+    <task id="LOCAL-00631" summary="1">
+      <created>1519408985459</created>
+      <option name="number" value="00631" />
+      <option name="presentableId" value="LOCAL-00631" />
+      <option name="project" value="LOCAL" />
+      <updated>1519408985459</updated>
+    </task>
+    <task id="LOCAL-00632" summary="1">
+      <created>1519409502321</created>
+      <option name="number" value="00632" />
+      <option name="presentableId" value="LOCAL-00632" />
+      <option name="project" value="LOCAL" />
+      <updated>1519409502321</updated>
+    </task>
+    <task id="LOCAL-00633" summary="1">
+      <created>1519409525939</created>
+      <option name="number" value="00633" />
+      <option name="presentableId" value="LOCAL-00633" />
+      <option name="project" value="LOCAL" />
+      <updated>1519409525939</updated>
+    </task>
+    <task id="LOCAL-00634" summary="1">
+      <created>1519410200248</created>
+      <option name="number" value="00634" />
+      <option name="presentableId" value="LOCAL-00634" />
+      <option name="project" value="LOCAL" />
+      <updated>1519410200248</updated>
+    </task>
+    <task id="LOCAL-00635" summary="1">
+      <created>1519411141444</created>
+      <option name="number" value="00635" />
+      <option name="presentableId" value="LOCAL-00635" />
+      <option name="project" value="LOCAL" />
+      <updated>1519411141444</updated>
+    </task>
+    <task id="LOCAL-00636" summary="1">
+      <created>1519412376465</created>
+      <option name="number" value="00636" />
+      <option name="presentableId" value="LOCAL-00636" />
+      <option name="project" value="LOCAL" />
+      <updated>1519412376465</updated>
+    </task>
+    <task id="LOCAL-00637" summary="1">
+      <created>1519438023057</created>
+      <option name="number" value="00637" />
+      <option name="presentableId" value="LOCAL-00637" />
+      <option name="project" value="LOCAL" />
+      <updated>1519438023057</updated>
+    </task>
+    <task id="LOCAL-00638" summary="1">
+      <created>1519440034008</created>
+      <option name="number" value="00638" />
+      <option name="presentableId" value="LOCAL-00638" />
+      <option name="project" value="LOCAL" />
+      <updated>1519440034008</updated>
+    </task>
+    <task id="LOCAL-00639" summary="1">
+      <created>1519462568801</created>
+      <option name="number" value="00639" />
+      <option name="presentableId" value="LOCAL-00639" />
+      <option name="project" value="LOCAL" />
+      <updated>1519462568801</updated>
+    </task>
+    <task id="LOCAL-00640" summary="1">
+      <created>1519468168756</created>
+      <option name="number" value="00640" />
+      <option name="presentableId" value="LOCAL-00640" />
+      <option name="project" value="LOCAL" />
+      <updated>1519468168756</updated>
+    </task>
+    <task id="LOCAL-00641" summary="1">
+      <created>1519469249974</created>
+      <option name="number" value="00641" />
+      <option name="presentableId" value="LOCAL-00641" />
+      <option name="project" value="LOCAL" />
+      <updated>1519469249974</updated>
+    </task>
+    <task id="LOCAL-00642" summary="1">
+      <created>1519470940703</created>
+      <option name="number" value="00642" />
+      <option name="presentableId" value="LOCAL-00642" />
+      <option name="project" value="LOCAL" />
+      <updated>1519470940703</updated>
+    </task>
+    <task id="LOCAL-00643" summary="1">
+      <created>1519490277249</created>
+      <option name="number" value="00643" />
+      <option name="presentableId" value="LOCAL-00643" />
+      <option name="project" value="LOCAL" />
+      <updated>1519490277249</updated>
+    </task>
+    <task id="LOCAL-00644" summary="1">
+      <created>1519490727511</created>
+      <option name="number" value="00644" />
+      <option name="presentableId" value="LOCAL-00644" />
+      <option name="project" value="LOCAL" />
+      <updated>1519490727511</updated>
+    </task>
+    <task id="LOCAL-00645" summary="1">
+      <created>1519491235526</created>
+      <option name="number" value="00645" />
+      <option name="presentableId" value="LOCAL-00645" />
+      <option name="project" value="LOCAL" />
+      <updated>1519491235526</updated>
+    </task>
+    <task id="LOCAL-00646" summary="1">
+      <created>1519491443473</created>
+      <option name="number" value="00646" />
+      <option name="presentableId" value="LOCAL-00646" />
+      <option name="project" value="LOCAL" />
+      <updated>1519491443473</updated>
+    </task>
+    <task id="LOCAL-00647" summary="1">
+      <created>1519492001293</created>
+      <option name="number" value="00647" />
+      <option name="presentableId" value="LOCAL-00647" />
+      <option name="project" value="LOCAL" />
+      <updated>1519492001293</updated>
+    </task>
+    <task id="LOCAL-00648" summary="1">
+      <created>1519521850384</created>
+      <option name="number" value="00648" />
+      <option name="presentableId" value="LOCAL-00648" />
+      <option name="project" value="LOCAL" />
+      <updated>1519521850384</updated>
+    </task>
+    <task id="LOCAL-00649" summary="1">
+      <created>1519537333854</created>
+      <option name="number" value="00649" />
+      <option name="presentableId" value="LOCAL-00649" />
+      <option name="project" value="LOCAL" />
+      <updated>1519537333854</updated>
+    </task>
+    <task id="LOCAL-00650" summary="1">
+      <created>1519570659434</created>
+      <option name="number" value="00650" />
+      <option name="presentableId" value="LOCAL-00650" />
+      <option name="project" value="LOCAL" />
+      <updated>1519570659434</updated>
+    </task>
+    <task id="LOCAL-00651" summary="1">
+      <created>1519570970755</created>
+      <option name="number" value="00651" />
+      <option name="presentableId" value="LOCAL-00651" />
+      <option name="project" value="LOCAL" />
+      <updated>1519570970755</updated>
+    </task>
+    <task id="LOCAL-00652" summary="1">
+      <created>1519571355574</created>
+      <option name="number" value="00652" />
+      <option name="presentableId" value="LOCAL-00652" />
+      <option name="project" value="LOCAL" />
+      <updated>1519571355574</updated>
+    </task>
+    <task id="LOCAL-00653" summary="1">
+      <created>1519575786931</created>
+      <option name="number" value="00653" />
+      <option name="presentableId" value="LOCAL-00653" />
+      <option name="project" value="LOCAL" />
+      <updated>1519575786931</updated>
+    </task>
+    <task id="LOCAL-00654" summary="1">
+      <created>1519576100451</created>
+      <option name="number" value="00654" />
+      <option name="presentableId" value="LOCAL-00654" />
+      <option name="project" value="LOCAL" />
+      <updated>1519576100451</updated>
+    </task>
+    <task id="LOCAL-00655" summary="1">
+      <created>1519576289089</created>
+      <option name="number" value="00655" />
+      <option name="presentableId" value="LOCAL-00655" />
+      <option name="project" value="LOCAL" />
+      <updated>1519576289089</updated>
+    </task>
+    <task id="LOCAL-00656" summary="1">
+      <created>1519581690838</created>
+      <option name="number" value="00656" />
+      <option name="presentableId" value="LOCAL-00656" />
+      <option name="project" value="LOCAL" />
+      <updated>1519581690838</updated>
+    </task>
+    <task id="LOCAL-00657" summary="1">
+      <created>1519581703485</created>
+      <option name="number" value="00657" />
+      <option name="presentableId" value="LOCAL-00657" />
+      <option name="project" value="LOCAL" />
+      <updated>1519581703485</updated>
+    </task>
+    <task id="LOCAL-00658" summary="1">
+      <created>1519582376070</created>
+      <option name="number" value="00658" />
+      <option name="presentableId" value="LOCAL-00658" />
+      <option name="project" value="LOCAL" />
+      <updated>1519582376070</updated>
+    </task>
+    <task id="LOCAL-00659" summary="1">
+      <created>1519583810497</created>
+      <option name="number" value="00659" />
+      <option name="presentableId" value="LOCAL-00659" />
+      <option name="project" value="LOCAL" />
+      <updated>1519583810497</updated>
+    </task>
+    <task id="LOCAL-00660" summary="1">
+      <created>1519585122999</created>
+      <option name="number" value="00660" />
+      <option name="presentableId" value="LOCAL-00660" />
+      <option name="project" value="LOCAL" />
+      <updated>1519585122999</updated>
+    </task>
+    <task id="LOCAL-00661" summary="1">
+      <created>1519627961188</created>
+      <option name="number" value="00661" />
+      <option name="presentableId" value="LOCAL-00661" />
+      <option name="project" value="LOCAL" />
+      <updated>1519627961189</updated>
+    </task>
+    <task id="LOCAL-00662" summary="1">
+      <created>1519644484906</created>
+      <option name="number" value="00662" />
+      <option name="presentableId" value="LOCAL-00662" />
+      <option name="project" value="LOCAL" />
+      <updated>1519644484906</updated>
+    </task>
+    <task id="LOCAL-00663" summary="1">
+      <created>1519644603978</created>
+      <option name="number" value="00663" />
+      <option name="presentableId" value="LOCAL-00663" />
+      <option name="project" value="LOCAL" />
+      <updated>1519644603978</updated>
+    </task>
+    <task id="LOCAL-00664" summary="1">
+      <created>1519746219319</created>
+      <option name="number" value="00664" />
+      <option name="presentableId" value="LOCAL-00664" />
+      <option name="project" value="LOCAL" />
+      <updated>1519746219320</updated>
+    </task>
+    <task id="LOCAL-00665" summary="1">
+      <created>1519746276169</created>
+      <option name="number" value="00665" />
+      <option name="presentableId" value="LOCAL-00665" />
+      <option name="project" value="LOCAL" />
+      <updated>1519746276169</updated>
+    </task>
+    <task id="LOCAL-00666" summary="1">
+      <created>1519746284210</created>
+      <option name="number" value="00666" />
+      <option name="presentableId" value="LOCAL-00666" />
+      <option name="project" value="LOCAL" />
+      <updated>1519746284210</updated>
+    </task>
+    <task id="LOCAL-00667" summary="1">
+      <created>1519748010034</created>
+      <option name="number" value="00667" />
+      <option name="presentableId" value="LOCAL-00667" />
+      <option name="project" value="LOCAL" />
+      <updated>1519748010034</updated>
+    </task>
+    <option name="localTasksCounter" value="668" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="119" y="83" width="1709" height="941" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11078199" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3037825" sideWeight="0.5094787" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3037825" sideWeight="0.49052134" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1713948" sideWeight="0.49526066" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286052" sideWeight="0.4977778" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2777778" sideWeight="0.4977778" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37352246" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15839243" sideWeight="0.49763033" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="19" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/analytic.py" />
+    <entry file="file://$PROJECT_DIR$/temp" />
+    <entry file="file://$PROJECT_DIR$/screen4.sh" />
+    <entry file="file://$PROJECT_DIR$/trade1.log" />
+    <entry file="file://$PROJECT_DIR$/bot4.py" />
+    <entry file="file://$PROJECT_DIR$/backup/old2.py" />
+    <entry file="file://$PROJECT_DIR$/backup/old1.py" />
+    <entry file="file://$PROJECT_DIR$/backup/old3.py" />
+    <entry file="file://$PROJECT_DIR$/hfbot.sh" />
+    <entry file="file://$PROJECT_DIR$/tabot.sh" />
+    <entry file="file://$PROJECT_DIR$/backup/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/hfbot.log" />
+    <entry file="file://$PROJECT_DIR$/history.csv" />
+    <entry file="file://$PROJECT_DIR$/mlbot.log" />
+    <entry file="file://$PROJECT_DIR$/tabot.log" />
+    <entry file="file://$PROJECT_DIR$/mlbot.sh" />
+    <entry file="file://$PROJECT_DIR$/../html/MLBot.csv" />
+    <entry file="file://$PROJECT_DIR$/rpbot.sh" />
+    <entry file="file://$PROJECT_DIR$/../html/csv/MLBot.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="42" lean-forward="false" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpbot.py" />
+    <entry file="file://$PROJECT_DIR$/mlbot.py" />
+    <entry file="file://$PROJECT_DIR$/hf_detector.py" />
+    <entry file="file://$PROJECT_DIR$/ml_detector.py" />
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tabot.py" />
+    <entry file="file://$PROJECT_DIR$/hfbot.py" />
+    <entry file="file://$PROJECT_DIR$/RPBot.csv" />
+    <entry file="file://$PROJECT_DIR$/reporter.log" />
+    <entry file="file://$PROJECT_DIR$/detector.log" />
+    <entry file="file://$PROJECT_DIR$/trader.sh" />
+    <entry file="file://$PROJECT_DIR$/budget.txt" />
+    <entry file="file://$PROJECT_DIR$/predictor.py" />
+    <entry file="file://$USER_HOME$/venv/lib/python3.6/tempfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7125">
+          <caret line="482" column="0" lean-forward="false" selection-start-line="482" selection-start-column="0" selection-end-line="482" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/rf_15m.sav" />
+    <entry file="file://$PROJECT_DIR$/model/lstm_15m.h5" />
+    <entry file="file:///usr/local/Cellar/python3/3.6.4_2/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16365">
+          <caret line="1112" column="0" lean-forward="false" selection-start-line="1112" selection-start-column="0" selection-end-line="1112" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector_bak.py" />
+    <entry file="file://$PROJECT_DIR$/detector2.py" />
+    <entry file="file://$PROJECT_DIR$/loader.py" />
+    <entry file="file://$PROJECT_DIR$/model/train_x.csv" />
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="44" column="45" lean-forward="false" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python3/3.6.4_2/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/ccxt/bittrex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5775">
+          <caret line="385" column="0" lean-forward="false" selection-start-line="385" selection-start-column="0" selection-end-line="385" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="59" column="7" lean-forward="false" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reporter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="10" lean-forward="false" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="40" column="10" lean-forward="false" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-982">
+          <caret line="72" column="10" lean-forward="false" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="70" column="10" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="70" selection-end-column="10" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
