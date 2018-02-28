@@ -1,0 +1,2 @@
+# mimibot
+ Cryptocurrencies trading bot
