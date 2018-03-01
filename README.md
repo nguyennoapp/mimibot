@@ -1,5 +1,5 @@
 # mimibot
- Cryptocurrencies trading bot
+ Cryptocurrencies auto trading bot
 
 # Features:
 - Support multi exchanges by using ccxt library (tested on Binance only)
