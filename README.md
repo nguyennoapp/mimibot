@@ -32,3 +32,7 @@
 - https://github.com/yasinkuyu/binance-trader
 - https://github.com/gcarq/freqtrade
 - and others..
+
+# DISCLAIMER:
+USE THIS BOT AND TRADE IN YOUR OWN RISK.
+The crypto market is going crazy, you may gain some but also may lose a lot, be careful!
