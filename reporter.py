@@ -58,48 +58,6 @@ def to_usdt(total):
     return btc_ticker['last'], quote_ticker['last'], quote_ticker['last'] * total
 
 
-def add(key, value):
-    total = rd.get(key)
-    if total is None:
-        total = 0
-    else:
-        total = float(total)
-    total += value
-    rd.set(key, total)
-
-
-def save_sell_total(algo, symbol, amount, sell_price):
-    rd.set('{}_sell'.format(symbol), sell_price)
-    add('sell_total', amount * sell_price)
-    add('{}_sell_total'.format(algo), amount * sell_price)
-    add('fee_total', amount * sell_price * 0.005)
-
-
-def clean_sell(base):
-    if base in ['BTC', 'ETH', 'BNB', 'USDT']:
-        return
-    symbol = base + '/' + QUOTE_ASSET
-    amount = exchange.fetch_balance()['free'][base]
-    if amount == 0:
-        return
-    try:
-        last_price = exchange.fetch_ticker(symbol)['last']
-        min_amount = exchange.market(symbol)['limits']['amount']['min']
-        precision = exchange.market(symbol)['precision']['amount']
-        min_cost = exchange.market(symbol)['limits']['cost']['min']
-        amount = round(int(amount / min_amount) * min_amount, precision)
-        if amount < min_amount:
-            return
-        if amount * last_price > min_cost:
-            return
-        log('%s clean sell quantity:%.8f' % (symbol, amount))
-        exchange.create_market_sell_order(symbol, amount)
-        last_price = exchange.fetch_ticker(symbol)['last']
-        save_sell_total('SS', symbol, amount, last_price)
-    except Exception as e:
-        return
-
-
 def set_history():
     balance = exchange.fetch_balance()['total']
     date = time.strftime("%d/%m/%Y %H:%M")
@@ -114,12 +72,9 @@ def set_history():
         amount = balance[key]
         if amount > 0:
             price, value, change = to_quote(key, balance[key])
-            if value >= 0.02:
-                text += '%s amount: %g price: %g value: %g change: %.2f%%' % (key, amount, price, value, change) + '  \n'
-                b += '%s:%g ' % (key, value)
-                quote_total += value
-            else:
-                clean_sell(key)
+            text += '%s amount: %g price: %g value: %g change: %.2f%%' % (key, amount, price, value, change) + '  \n'
+            b += '%s:%g ' % (key, value)
+            quote_total += value
             time.sleep(0.1)
     rd.set('altcoin_value', quote_total)
     quote_total += balance[QUOTE_ASSET]
