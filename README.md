@@ -17,6 +17,7 @@
 - Create Binance API with trading permission
 - Deposit some
 - Install all needed python packages by using pip
+- Build ta-lib and tensor-flow from sources (talib python and keras are just api wrapper built on top of them)
 - Install redis
 - Edit config.ini
 - Add to crontab:
