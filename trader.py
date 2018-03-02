@@ -80,7 +80,7 @@ def buy_bnb():
     amount = int(min_cost / last_price)
     if exchange.fetch_balance()['free']['BNB'] < amount:
         exchange.create_market_buy_order(symbol, amount)
-        log('buy BNB for fee, amount: %g'.format(amount))
+        log('buy BNB for fee, amount: %g' % amount)
 
 
 def price_calculate(symbol):
