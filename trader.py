@@ -73,6 +73,16 @@ def get_buy_price(symbol):
         return float(buy_price)
 
 
+def buy_bnb():
+    symbol = 'BNB/{}'.format(config['CONFIG']['QUOTE'])
+    last_price = exchange.fetch_ticker(symbol)['last']
+    min_cost = exchange.market(symbol)['limits']['cost']['min']
+    amount = int(min_cost / last_price)
+    if exchange.fetch_balance()['free']['BNB'] < amount:
+        exchange.create_market_buy_order(symbol, amount)
+        log('buy BNB for fee, amount: %g'.format(amount))
+
+
 def price_calculate(symbol):
     order_book = exchange.fetch_order_book(symbol.symbol)
     buy_price = round(order_book['bids'][0][0] + symbol.limits['price']['min'] * randint(2, 5), symbol.precision['price'])
@@ -226,11 +236,7 @@ def main():
     log('*{} started*'.format(BOT_NAME))
     start_time = time.time()
     exchange.load_markets(reload=True)
-    try:
-        if exchange.fetch_balance()['free']['BNB'] < 1:
-            exchange.create_market_buy_order('BNB/{}'.format(config['CONFIG']['QUOTE']), 1)
-    except Exception as e:
-        log('{} error: {}'.format('BNB/{}'.format(config['CONFIG']['QUOTE']), str(e)))
+    buy_bnb()
     p = rd.pubsub(ignore_subscribe_messages=True)
     p.subscribe(**{'stop_sell': handler})
     p.subscribe(**{'hf_buy': handler})
